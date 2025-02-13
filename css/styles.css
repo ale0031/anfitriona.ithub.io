@@ -993,22 +993,16 @@ ul.list-valor {
 
   /* Estilos para el contenido del modal */
   .modal-contenido {
-    background-color: #fff; /* Color de fondo */
-    margin: 20px auto; /* Centra el contenido horizontalmente */
-    padding: 20px; /* Espaciado interno */
-    border: 1px solid #ddd; /* Borde */
-    border-radius: 10px; /* Esquinas redondeadas */
-    width: 40%; /* Anchura máxima del contenido */
+    background-color:transparent;
+  }
+
+  .grilla{
+    width:400px;
   }
 
   /* Estilos para el header del modal */
   .header-modal {
     display: flex; /* Layout en flexbox */
-    justify-content: space-between; /* Espaciado entre elementos */
-    align-items: center; /* Alineación vertical de elementos */
-    padding: 10px; /* Espaciado interno */
-    background-color: #2f4e34; /* Color de fondo */
-    border-bottom: 1px solid #ddd; /* Borde inferior */
   }
 
   /* Estilos para el botón de cierre del modal */
@@ -1196,5 +1190,18 @@ h5{
 @media (max-width: 767px) {
    .col-md-6 {
     margin-bottom: 20px; /* Ajusta este valor según tus necesidades */
+    }
+}
+@media (max-width:425px){
+    .carousel-item img {
+        height: 53vh;
+        object-fit: cover;
+        /* object-position: bottom; */
+    }
+    .logo-terramin {
+        height: 200px !important;
+        max-width: 300px !important;
+        object-fit: contain;
+        margin-right: 0;
     }
 }
