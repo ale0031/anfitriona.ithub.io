@@ -1209,13 +1209,12 @@ h5{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #2f4e34;
         padding: 20px;
         border-radius: 10px;
-        width: 391px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        
     }
     .grilla{
-        width: 100px;
+        width: 300px;
     }
 }
