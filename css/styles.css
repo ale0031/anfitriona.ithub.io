@@ -1222,14 +1222,13 @@ h5{
         width: 300px;
     }
     .my-5 {
-        margin-top: 3rem !important;
         margin-bottom: 3rem !important;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
         margin-left: 10%;
     }
 }
